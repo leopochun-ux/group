@@ -765,6 +765,28 @@
   .mini-card .card-link::after{content:"↗"}
 
   /* ===================== FOUNDER BLOG (P2) ===================== */
+  /* ===== Founder Podcast ===== */
+  .founder-podcast{
+    margin-top:32px;
+    padding-top:24px;
+    border-top:1px solid rgba(196,154,60,.2);
+    max-width:480px;
+  }
+  .podcast-label{
+    font-size:11px;
+    letter-spacing:2.5px;
+    color:var(--gold);
+    margin-bottom:16px;
+    font-family:'Cormorant Garamond',serif;
+    opacity:.8;
+    text-transform:uppercase;
+  }
+  .founder-podcast-grid{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+  }
+
   .founder{
     padding:160px 48px;
     background-color:#1a0f08;  /* 深咖啡木色底 */
@@ -1334,6 +1356,19 @@
         <span data-i18n="founder.t4">教育創新</span>
       </div>
       <a href="https://guitarleo.me" target="_blank" rel="noopener" class="btn primary" data-i18n="founder.cta">閱讀 Leo's Journal</a>
+
+      <!-- Podcast embeds -->
+      <div class="founder-podcast">
+        <p class="podcast-label">🎙 Leo's Podcast · 夢想談｜彈夢想</p>
+        <div class="founder-podcast-grid">
+          <iframe style="border-radius:10px;width:100%;"
+            src="https://open.spotify.com/embed/show/0nXfoMvxsIBzO7US7WHR0J?utm_source=generator&theme=0"
+            height="160" frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
     </div>
   </div>
 </section>
